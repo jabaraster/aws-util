@@ -17,6 +17,7 @@ library
   build-depends:       base
                      , text
                      , directory
+                     , lens
                      , amazonka
   default-language:    Haskell2010
 
