@@ -1,0 +1,14 @@
+resolver: lts-9.18
+
+packages:
+- location:
+    git: https://github.com/jabaraster/jabara-util
+    commit: 2aeecb9e20009c8d5a6b42a8eb91e55c6783c982
+- .
+
+extra-deps: []
+
+flags: {}
+
+extra-package-dbs: []
+
