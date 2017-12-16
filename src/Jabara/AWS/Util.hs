@@ -37,7 +37,7 @@ readCredentials profileName = do
 
 localDynamoDBEnv :: IO Env
 localDynamoDBEnv = do
-    env <- newEnv $ FromEnv "" "" Nothing Nothing
+    env <- newEnv $ FromKeys "" ""
     pure $ env&envOverride .~ localOverride
   where
     localOverride :: Dual (Endo Service)
